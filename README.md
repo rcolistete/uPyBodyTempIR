@@ -2,7 +2,7 @@
 
 ### uPyBodyTempIR -  Body Temperature IR Meter with MLX90615 sensor and MicroPython microcontroller
 
-### Goal : a low cost and open device to detect human body (head) temperature to help detect fever (due to covid-19 or not), using IoT.
+#### Goal : a low cost and open device to detect human body (head) temperature to help detect fever (due to covid-19 or not), using IoT.
 
 The [I2C sensor MLX90615](https://www.melexis.com/en/product/mlx90615/) is a infrared thermometer for non-contact temperature measurements, with accuracy of +/- 0.2 C for human temperatures, so fever can be detected.
 
