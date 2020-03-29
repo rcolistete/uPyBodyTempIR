@@ -6,7 +6,7 @@
 
 The [I2C sensor MLX90615](https://www.melexis.com/en/product/mlx90615/) is a infrared thermometer for non-contact temperature measurements, with accuracy of +/- 0.2 C for human temperatures, so fever can be detected. 
 
-**There is no MLX90615 MicroPython driver yet**, so it will be developed to make this project possible. But there is a [MLX90614 CircuiPython driver](https://circuitpython.readthedocs.io/projects/mlx90614/en/latest), so uPyBodyTempIR using CircuitPython boards will be developed easier.
+There is no MLX90615 MicroPython driver yet, but there is a [MLX90614 MicroPython driver](https://github.com/mcauser/micropython-mlx90614), so it will be tested with MLX90615 to verify compatibility, if needed the driver will adapted. There is a also [MLX90614 CircuiPython driver](https://circuitpython.readthedocs.io/projects/mlx90614/en/latest).
 
 Another sensor which can be useful to avoid people interfacing with physical contact is the I2C sensor [APDS-9960 Digital RGB, Ambient Light, Proximity and Gesture Sensor](https://www.broadcom.com/products/optical-sensors/integrated-ambient-light-and-proximity-sensors/apds-9960). See this excellent [guide from Adafruit](https://www.adafruit.com/product/3595). APDS-9960 supports 4 simple gestures (left to right, right to left, up to down, down to up) directly but other combined gestures are possible by programming.
 
